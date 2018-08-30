@@ -127,6 +127,8 @@ void loop() {
      //client.print("test"); //trimis
     //timex = timerRead(timer);
 
+    
+    //de modificat timpii : in documentatie scune ca verticala e maxim 3000 si hor maxim 4000???
     if (timex>2600 && timex<3400){
 x=timeStop;
 ax=1;
