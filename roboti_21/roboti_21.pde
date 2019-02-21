@@ -35,6 +35,7 @@ void draw() {
          c1.write("iw 0 12 0\r\n");
    } else
    
+   //if (abs((float)(dir/6 - spre) >?< 180 ))
    if (spre < (float)(dir/6+180)) {
      c1.write("iw 0 4 110\r\n");
      c1.write("iw 0 12 200\r\n");
