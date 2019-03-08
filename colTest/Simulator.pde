@@ -192,7 +192,11 @@ public class Simulator {
         }
 
 
-        agents.forEach(Agent::update);
+        //agents.forEach(Agent::update);
+        for (Agent agent : agents) {
+            agent.update();
+        }
+        
 
         globalTime += timeStep;
 
